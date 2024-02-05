@@ -4,20 +4,16 @@
 
     <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
-    <!-- <style>
-       p {
-           background-color: red;
-           color: black;
-       }
-   </style> -->
 
 </head>
 
 <body>
 
     <div class="container-fluid">
-        <a href="../../index.html"> Back to Home </a>
+        <a href="/index.html"> Back to Home </a>
         <h1>Cascading Style Sheets (CSS)</h1>
         <div class="container">
             <h1>Bootstrap</h1>
@@ -398,7 +394,7 @@
             </a>
         </h2>
         <div class="card" style="width: 18rem;">
-            <img src="../../images/starship.jpg" class="card-img-top" alt="...">
+            <img src="../../images/starship.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -429,43 +425,45 @@
         <i class="fa fa-chart-bar fa-4x" style="color: rgb(123,234,123)"></i>
 
         <h2>Brand icons</h2>
-        <i class="fab fa-twitter fa-2x"></i><br />
-        <i class="fab fa-facebook fa-2x"></i><br />
-        <i class="fab fa-apple fa-2x"></i><br />
+        <i class="fa fa-twitter fa-2x"></i><br />
+        <i class="fa fa-facebook fa-2x"></i><br />
+        <i class="fa fa-apple fa-2x"></i><br />
 
         <h2>Stacking icons</h2>
         <span class="fa-stack fa-2x">
-            <i class="fas fa-square fa-stack-2x"></i>
-            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
         </span><br />
         <span class="fa-stack fa-2x">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
         </span><br />
         <span class="fa-stack fa-2x">
-            <i class="fas fa-camera fa-stack-1x"></i>
-            <i class="fas fa-ban fa-stack-2x" style="color:Tomato"></i>
+            <i class="fa fa-camera fa-stack-1x"></i>
+            <i class="fa fa-ban fa-stack-2x" style="color:Tomato"></i>
         </span><br />
 
         <h2>Rotating icons</h2>
         <div class="fa-4x">
-            <i class="fas fa-snowboarding"></i>
-            <i class="fas fa-snowboarding fa-rotate-90"></i>
-            <i class="fas fa-snowboarding fa-rotate-180"></i><br />
-            <i class="fas fa-snowboarding fa-rotate-270"></i>
-            <i class="fas fa-snowboarding fa-flip-horizontal"></i>
-            <i class="fas fa-snowboarding fa-flip-vertical"></i><br />
-            <i class="fas fa-snowboarding fa-flip-both"></i><br />
+            <i class="fa fa-anchor"></i>
+            <i class="fa fa-anchor fa-rotate-90"></i>
+            <i class="fa fa-anchor fa-rotate-180"></i><br/>
+            <i class="fa fa-anchor fa-rotate-270"></i>
+            <i class="fa fa-anchor fa-flip-horizontal"></i>
+            <i class="fa fa-anchor fa-flip-vertical"></i><br/>
+            <i class="fa fa-anchor fa-flip-both"></i><br/>
         </div>
+
+
 
         <h2>Animating icons</h2>
         <div class="fa-3x">
-            <i class="fas fa-spinner fa-spin"></i>
-            <i class="fas fa-circle-notch fa-spin"></i>
-            <i class="fas fa-sync fa-spin"></i><br />
-            <i class="fas fa-cog fa-spin"></i>
-            <i class="fas fa-spinner fa-pulse"></i>
-            <i class="fas fa-stroopwafel fa-spin"></i>
+            <i class="fa fa-spinner fa-spin"></i>
+            <i class="fa fa-circle-notch fa-spin"></i>
+            <i class="fa fa-sync fa-spin"></i><br />
+            <i class="fa fa-cog fa-spin"></i>
+            <i class="fa fa-spinner fa-pulse"></i>
+            <i class="fa fa-stroopwafel fa-spin"></i>
         </div>
 
         <h2>Style attribute and tag</h2>
@@ -517,12 +515,12 @@
             </div>
             <h2>Colors</h2>
             <h3 class="wd-fg-color-blue">Foreground color</h3>
-            <p class="wd-fg-color-red">
+            <p class="wd-fg-text-danger">
                 The text in this paragraph is red but
                 <span class="wd-fg-color-green">this text is green</span>
             </p>
             <h3 class="wd-bg-color-blue wd-fg-color-white">Background color</h3>
-            <p class="wd-bg-color-red wd-fg-color-black">
+            <p class="wd-bg-text-danger wd-fg-color-black">
                 This background of this paragraph is red but
                 <span class="wd-bg-color-green wd-fg-color-white"> the background
                     of this text is green and the foreground white</span>
@@ -595,7 +593,7 @@
                         wd-fg-color-white">
                     Landscape
                 </div>
-                <div class="wd-dimension-square wd-bg-color-red">
+                <div class="wd-dimension-square wd-bg-text-danger">
                     Square
                 </div>
             </div>
@@ -612,7 +610,7 @@
                         wd-bg-color-blue wd-fg-color-white 
                         wd-dimension-landscape">
                     Landscape</div>
-                <div class="wd-bg-color-red wd-dimension-square">
+                <div class="wd-bg-text-danger wd-dimension-square">
                     Square</div>
             </div>
             <h3>Absolute position</h3>
@@ -626,7 +624,7 @@
                     wd-dimension-landscape">
                     Landscape </div>
                 <div class="wd-pos-absolute-120-20 
-                    wd-bg-color-red wd-dimension-square">
+                    wd-bg-text-danger wd-dimension-square">
                     Square </div>
             </div><br /><br /><br /><br /><br /><br /><br />
 
@@ -657,7 +655,7 @@
         wd-dimension-landscape">
                     Landscape</div>
                 <div class="wd-pos-absolute-120-20 
-        wd-bg-color-red wd-dimension-square">
+        wd-bg-text-danger wd-dimension-square">
                     Square</div>
             </div><br /><br /><br /><br /><br /><br /><br />
             <h2>Float</h2>
@@ -666,10 +664,10 @@
                     Yellow</div>
                 <div class="wd-float-left wd-dimension-portrait wd-bg-color-blue wd-fg-color-white">
                     Blue</div>
-                <div class="wd-float-left wd-dimension-portrait wd-bg-color-red">
+                <div class="wd-float-left wd-dimension-portrait wd-bg-text-danger">
                     Red</div>
                 <img class="wd-float-right"
-                    src="download.jpeg" />
+                    src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg" />
                 <div class="wd-float-done"></div>
             </div>
 
@@ -689,7 +687,7 @@
               wd-fg-color-white">
                     <h3>Left third</h3>
                 </div>
-                <div class="wd-grid-col-two-thirds-page wd-bg-color-red
+                <div class="wd-grid-col-two-thirds-page wd-bg-text-danger
               wd-fg-color-white">
                     <h3>Right two thirds</h3>
                 </div>
@@ -715,13 +713,13 @@
             <div class="wd-flex-row-container">
                 <div class="wd-bg-color-yellow">Column 1</div>
                 <div class="wd-bg-color-blue">Column 2</div>
-                <div class="wd-bg-color-red">Column 3</div>
+                <div class="wd-bg-text-danger">Column 3</div>
             </div>
             <h2>Flex</h2>
             <div class="wd-flex-row-container">
                 <div class="wd-bg-color-yellow">Column 1</div>
                 <div class="wd-bg-color-blue">Column 2</div>
-                <div class="wd-bg-color-red wd-flex-grow-1">
+                <div class="wd-bg-text-danger wd-flex-grow-1">
                     Column 3
                 </div>
             </div>
@@ -731,15 +729,10 @@
                     Column 1
                 </div>
                 <div class="wd-bg-color-blue">Column 2</div>
-                <div class="wd-bg-color-red wd-flex-grow-1">
+                <div class="wd-bg-text-danger wd-flex-grow-1">
                     Column 3
                 </div>
             </div>
-
-
-
-
-
         </div>
 </body>
 
