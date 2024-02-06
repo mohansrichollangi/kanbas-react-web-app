@@ -51,6 +51,17 @@
     margin-left: -5px;
 }
 
+.wd-navbar-logo {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    margin: 0 auto; 
+    padding: 0; 
+    display: block; 
+}
+
+
+
 
 
 
