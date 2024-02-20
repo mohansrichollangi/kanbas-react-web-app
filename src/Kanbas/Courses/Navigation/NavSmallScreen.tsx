@@ -40,7 +40,7 @@ function SmallNav() {
   const href = window.location.href;
   const splitHref = href.split('/');
 
-  const navText = splitHref.at(-1) === 'Home' ? 'Modules' : splitHref.at(-1);
+  const navText = splitHref.at(-1);
   const [canvasNavExpanded, setCanvasNavExpanded] = useState(false);
 
   return (
