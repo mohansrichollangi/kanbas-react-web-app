@@ -43,14 +43,14 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
                   <Link className="card-title" to={`/Kanbas/Courses/${course._id}/Home`}
                     style={{ textDecoration: "none", color: "navy", fontWeight: "bold" }}>
                     {course.name}
-                    <button onClick={(event) => {
+                    <button className="btn btn-success m-1btn-style" onClick={(event) => {
                 event.preventDefault();
                 setCourse(course);
               }}>
               Edit
             </button>
 
-                    <button onClick={(event) => {
+                    <button className="btn-style btn btn-danger m-1" onClick={(event) => {
                       event.preventDefault();
                       deleteCourse(course._id);
                     }}>
