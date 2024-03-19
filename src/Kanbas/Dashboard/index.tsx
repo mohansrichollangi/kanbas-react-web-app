@@ -21,10 +21,10 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
         onChange={(e) => setCourse({ ...course, startDate: e.target.value })} />
       <input value={course.endDate} className="form-control" type="date"
         onChange={(e) => setCourse({ ...course, endDate: e.target.value })} />
-      <button onClick={addNewCourse} >
+      <button className="btn btn-danger btn-style m-1" onClick={addNewCourse} >
         Add
       </button>
-      <button onClick={updateCourse} >
+      <button className="btn btn-success btn-style m-1" onClick={updateCourse} >
         Update
       </button>
       <hr />
