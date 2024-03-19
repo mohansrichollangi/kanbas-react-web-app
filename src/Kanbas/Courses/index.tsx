@@ -10,7 +10,7 @@ import Grades from "./Grades";
 import "./index.css"
 import SmallNav from "./Navigation/NavSmallScreen";
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
     const { courseId } = useParams();
     const location = useLocation();
     const course = courses.find((course) => course._id === courseId);
